@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.calc {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 250px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+  margin: 5px 0;
+  padding: 8px;
+  width: 90%;
+  font-size: 16px;
+}
+
+#operator {
+  width: 60px;   /* atur lebar sesuai kebutuhan */
+  text-align: center; /* biar simbolnya di tengah */
+}
+
+
+#hasil {
+  margin-top: 10px;
+  font-weight: bold;
+}
