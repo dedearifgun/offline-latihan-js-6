@@ -5,6 +5,16 @@
   box-sizing: border-box;
 }
 
+/* Container tengah */
+.container {
+  width: 100%;
+  max-width: 60%;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  background-color: white;
+  font-family: sans-serif;
+}
+
 body {
   font-family: Arial, sans-serif;
   background: #f4f6f9;
@@ -63,3 +73,58 @@ body {
   margin-bottom: 20px;
   color: #222;
 }
+
+/* Profile Section */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.profile-img img {
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border: 4px solid #eee;
+}
+
+.profile-text {
+  max-width: 600px;
+}
+
+.profile-text h1 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.profile-text h1 span {
+  color: #2193b0; /* warna aksen */
+}
+
+.profile-text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-img img {
+    width: 180px;
+  }
+
+  .profile-text h1 {
+    font-size: 22px;
+  }
+}
+

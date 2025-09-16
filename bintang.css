@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #111; /* Background hitam biar efek jelas */
+  cursor: crosshair;
+  overflow: hidden;
+}
+
+/* Bintang */
+.star, .tiny {
+  position: absolute;
+  pointer-events: none;
+  background: #00f; /* default biru */
+  border-radius: 50%;
+}
+
+.star {
+  width: 5px;
+  height: 5px;
+}
+
+.tiny {
+  width: 2px;
+  height: 2px;
+}
