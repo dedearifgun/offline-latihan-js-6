@@ -21,6 +21,5 @@ switch (operator) {
   case "/": hasil = bagi(angka1, angka2); break;
   default : hasil = "Operator tidak dikenali!";
 }
-
 // Tampilkan hasil di terminal
 console.log(`Hasil dari ${angka1} ${operator} ${angka2} = ${hasil}`);
