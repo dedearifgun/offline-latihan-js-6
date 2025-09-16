@@ -1,4 +1,4 @@
-.calc {
+.container {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -7,9 +7,9 @@
   text-align: center;
 }
 
-.calc input,
-.calc select,
-.calc button {
+.container input,
+.container select,
+.container button {
   width: 100%;
   padding: 10px;
   margin: 8px 0;
@@ -20,12 +20,12 @@
   transition: border 0.3s;
 }
 
-.calc input:focus,
-.calc select:focus {
+.container input:focus,
+.container select:focus {
   border-color: #2193b0;
 }
 
-.calc button {
+.container button {
   background: #2193b0;
   color: white;
   border: none;
@@ -33,7 +33,7 @@
   font-weight: bold;
 }
 
-.calc button:hover {
+.container button:hover {
   background: #176678;
 }
 

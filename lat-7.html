@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kalkulator</title>
+  <title>Kalkulator Suhu</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="lat-6.css">
+  <link rel="stylesheet" href="lat-7.css">
 </head>
 <body>
 
@@ -20,28 +20,25 @@
   </ul>
 </nav>
 
-<!-- Konten Kalkulator -->
+<!-- Konten Kalkulator Suhu -->
 <section class="content">
-  <div class="calc">
-    <h2>Kalkulator</h2>
+  <div class="container">
+    <h2>🌡️ Konversi Suhu dari Celsius</h2>
     
-    <input type="number" id="angka1" placeholder="Masukkan angka 1">
+    <input type="number" id="inputC" placeholder="Masukkan suhu dalam °C">
     
-    <select id="operator">
-      <option value="+">+</option>
-      <option value="-">-</option>
-      <option value="*">*</option>
-      <option value="/">/</option>
+    <select id="konversiKe">
+      <option value="f">Fahrenheit (°F)</option>
+      <option value="k">Kelvin (K)</option>
+      <option value="r">Reamur (°R)</option>
     </select>
     
-    <input type="number" id="angka2" placeholder="Masukkan angka 2">
-    
-    <button id="btnHitung">Hitung</button>
+    <button id="btnKonversi">Konversi</button>
     
     <div id="hasil"></div>
   </div>
 </section>
 
-<script src="lat-6.js" defer></script>
+<script src="lat-7.js" defer></script>
 </body>
 </html>
